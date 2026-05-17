@@ -1,13 +1,13 @@
 name: Schedule Job
 
-on:
+on: 
   schedule:
     - cron: "0 0 * * *"
 
-jobs: 
-  run-script: 
-    run-on: ubuntu-latest
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
 
-    steps: 
-    - name: Print Massage
-      run: echo "Gayatri is so Beautifull"
+    steps:
+      - name: Print Massage
+        run: echo "Gayatri is so Beautifull"
